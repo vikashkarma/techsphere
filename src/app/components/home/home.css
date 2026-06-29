@@ -20,11 +20,15 @@
     cursor:pointer;
 }
 
+.latest-posts,
 .categories {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
     margin-top: 20px;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .category-card {
@@ -45,9 +49,9 @@
 
 .section-title {
     text-align: center;
-    margin-top: 50px;
-    margin-bottom: 30px;
+    margin: 50px 15px 30px;
 }
+
 .latest-posts {
   padding: 60px 20px;
 }
@@ -85,6 +89,32 @@
 
   .post-grid {
     grid-template-columns: 1fr;
+  }
+
+}
+
+@media (max-width: 768px) {
+
+  .post-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .categories {
+    grid-template-columns: 1fr;
+    padding: 0 15px;
+  }
+
+  .category-card {
+    padding: 20px;
+    font-size: 18px;
+  }
+
+  .hero h1 {
+    font-size: 42px;
+  }
+
+  .hero h2 {
+    font-size: 22px;
   }
 
 }

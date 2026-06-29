@@ -1,7 +1,8 @@
 [build]
 command = "npm run build"
-
 publish = "dist/techsphere/browser"
+
+
 
 [build.processing]
 skip_processing = false
