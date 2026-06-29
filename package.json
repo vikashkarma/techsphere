@@ -4,7 +4,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build",
+    "build": "ng build && copy dist\\techsphere\\browser\\index.csr.html dist\\techsphere\\browser\\index.html",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "serve:ssr:techsphere": "node dist/techsphere/server/server.mjs"
