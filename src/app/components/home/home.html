@@ -1,0 +1,46 @@
+<section class="hero">
+  <h1>TechSphere</h1>
+
+  <h2>
+    Technology • AI • Programming • Career
+  </h2>
+
+  <p>
+    Stay updated with the latest technology trends,
+    interview preparation and AI innovations.
+  </p>
+
+  <button>Explore Articles</button>
+</section>
+<section class="latest-posts">
+
+  <h2>Latest Articles</h2>
+
+  <div class="post-grid">
+
+    <a class="post-card" routerLink="/article/java-interview-questions">
+  <h3>Top 50 Java Interview Questions</h3>
+  <p>Most asked Java interview questions for freshers.</p>
+    </a>
+
+<a class="post-card" routerLink="/article/springboot-interview-questions">
+  <h3>Spring Boot Interview Questions</h3>
+  <p>Prepare for Spring Boot interviews.</p>
+</a>
+
+<a class="post-card" routerLink="/article/angular-routing-guide">
+  <h3>Angular Routing Complete Guide</h3>
+  <p>Learn Angular Routing step by step.</p>
+</a>
+  </div>
+
+</section>
+<h2 class="section-title">Explore Categories</h2>
+<section class="categories">
+    <div class="category-card" (click)="goToPage('/java')">Java</div>
+    <div class="category-card" (click)="goToPage('/angular')">Angular </div>
+    <div class="category-card" (click)="goToPage('/springboot')">Spring boot</div>
+  <div class="category-card" (click)="goToPage('/ai')">AI</div>
+  <div class="category-card" (click)="goToPage('/technology')">Technology</div>
+  <div class="category-card" (click)="goToPage('/interview')">Interview</div>
+</section>

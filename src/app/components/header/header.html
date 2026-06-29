@@ -1,0 +1,30 @@
+<nav class="navbar">
+  <a routerLink="/" class="logo">
+  TechSphere
+</a>
+
+
+  <ul class="nav-links">
+  <li><a routerLink="/">Home</a></li>
+<li><a routerLink="/technology">Technology</a></li>
+<li><a routerLink="/java">Java</a></li>
+<li><a routerLink="/springboot">Spring Boot</a></li>
+<li><a routerLink="/angular">Angular</a></li>
+<li><a routerLink="/ai">AI</a></li>
+<li><a routerLink="/interview">Interview</a></li>
+  </ul>
+
+  <div class="search-box">
+  <input
+    type="text"
+    placeholder="Search articles..."
+    [(ngModel)]="searchTerm"
+    (keyup.enter)="search()"
+  />
+
+  <button (click)="search()">
+    Search
+  </button>
+</div>
+
+</nav>

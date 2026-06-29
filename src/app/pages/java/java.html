@@ -1,0 +1,12 @@
+<section class="page">
+
+  <h1>Java Tutorials</h1>
+  <p>Java interview questions and tutorials.</p>
+
+  <div class="article-card" *ngFor="let article of javaArticles" [routerLink]="['/article', article.id]">
+  <h3>{{ article.title }}</h3>
+  <p>{{ article.description }}</p>
+
+</div>
+
+</section>

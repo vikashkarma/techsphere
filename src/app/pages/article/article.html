@@ -1,0 +1,32 @@
+<div class="article-container">
+
+  <h1>{{ article?.title }}</h1>
+
+  <div class="category">
+    {{ article?.category }}
+  </div>
+
+  <p class="description">
+    {{ article?.description }}
+  </p>
+    <div *ngFor="let q of article?.questions">
+        <h3>{{ q.question }}</h3>
+        <p>{{ q.answer }}</p>
+    </div>
+</div>
+
+<h2 class="related-title">Related Articles</h2>
+
+<div class="related-posts">
+
+  <div
+    class="related-card"
+    *ngFor="let item of relatedArticles"
+    [routerLink]="['/article', item.id]">
+
+    <h3>{{ item.title }}</h3>
+    <p>{{ item.description }}</p>
+
+  </div>
+
+</div>

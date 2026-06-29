@@ -1,0 +1,24 @@
+<div class="search-container">
+
+<h1 class="search-title" >Search Results</h1>
+
+ <p class="result-count">
+    Found {{ results.length }} article(s)
+  </p>
+
+<div *ngIf="results.length > 0; else noResults">
+
+  <div *ngFor="let article of results" class="article-card">
+    <h2>{{ article.title }}</h2>
+    <p>{{ article.description }}</p>
+  </div>
+
+</div>
+</div>
+
+<ng-template #noResults>
+    <div class="no-results">
+      <h3>No Articles Found</h3>
+      <p>Try searching with different keywords.</p>
+    </div>
+  </ng-template>
