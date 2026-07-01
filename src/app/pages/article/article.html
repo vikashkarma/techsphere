@@ -1,21 +1,38 @@
 <div class="article-container">
 
-  <h1>{{ article?.title }}</h1>
+  <div class="article-header">
 
-  <div class="category">
-    {{ article?.category }}
+    <h1>{{ article?.title }}</h1>
+
+    <div class="category">
+      {{ article?.category }}
+    </div>
+
+    <p class="description">
+      {{ article?.description }}
+    </p>
+
   </div>
 
-  <p class="description">
-    {{ article?.description }}
-  </p>
-    <div *ngFor="let q of article?.questions">
-        <h3>{{ q.question }}</h3>
-        <p>{{ q.answer }}</p>
-    </div>
+  <div
+    class="question-card"
+    *ngFor="let q of article?.questions; let i = index">
+
+    <h3>
+      {{ i + 1 }}. {{ q.question }}
+    </h3>
+
+    <p>
+      {{ q.answer }}
+    </p>
+
+  </div>
+
 </div>
 
-<h2 class="related-title">Related Articles</h2>
+<h2 class="related-title">
+  Related Articles
+</h2>
 
 <div class="related-posts">
 
@@ -25,7 +42,10 @@
     [routerLink]="['/article', item.id]">
 
     <h3>{{ item.title }}</h3>
-    <p>{{ item.description }}</p>
+
+    <p>
+      {{ item.description }}
+    </p>
 
   </div>
 

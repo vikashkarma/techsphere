@@ -123,6 +123,103 @@ export const ARTICLES = [
       "answer": "A synchronized block locks on an object, ensuring that only one instance of a method can be run at a time. A synchronized method, however, wraps around the entire method.It's useful for preventing race conditions within a single thread but doesn't provide synchronization across multiple threads."
     }
   ]
+},
+{
+  "id": "java-8-interview-questions",
+  "title": "Top 10 Java 8 Interview Questions",
+  "category": "Java",
+  "description": "Most asked Java 8 interview questions.",
+  "questions": [
+    {
+      "question": "What is Lambda Expression in Java 8?",
+      "answer": "Lambda expression is an anonymous function that provides a clear and concise way to represent a method. It enables functional programming in Java."
+    },
+    {
+      "question": "What is a Functional Interface?",
+      "answer": "A Functional Interface is an interface that contains exactly one abstract method. Examples include Runnable, Callable, Predicate and Function."
+    },
+    {
+      "question": "What are built-in Functional Interfaces in Java 8?",
+      "answer": "Common built-in functional interfaces are Predicate, Function, Consumer and Supplier. These are heavily used with Lambda Expressions and Stream API."
+    },
+    {
+      "question": "What is Stream API?",
+      "answer": "Stream API is used to process collections of data in a functional style. It supports filtering, mapping, sorting and reducing operations."
+    },
+    {
+      "question": "What is the difference between Collection and Stream?",
+      "answer": "Collections store data whereas Streams process data. Streams do not modify the original collection."
+    },
+    {
+      "question": "What is Optional in Java 8?",
+      "answer": "Optional is a container object that may or may not contain a value. It helps avoid NullPointerException."
+    },
+    {
+      "question": "What is Method Reference?",
+      "answer": "Method references provide a shorthand syntax for calling methods using the :: operator."
+    },
+    {
+      "question": "What is the difference between map() and flatMap()?",
+      "answer": "map() transforms each element individually while flatMap() flattens nested structures into a single stream."
+    },
+    {
+      "question": "What is forEach() in Java 8?",
+      "answer": "forEach() is a terminal operation used to iterate through stream elements."
+    },
+    {
+      "question": "What are the advantages of Java 8?",
+      "answer": "Java 8 introduced Lambda Expressions, Stream API, Functional Interfaces, Method References, Optional and a modern Date-Time API."
+    }
+  ]
+},
+
+{
+  "id": "springboot-interview-questions",
+  "title": "Top 10 Spring Boot Interview Questions",
+  "category": "Spring Boot",
+  "description": "Most asked Spring Boot interview questions.",
+  "questions": [
+    {
+      "question": "What is Spring Boot?",
+      "answer": "Spring Boot is an extension of the Spring Framework that simplifies application development by providing auto-configuration, embedded servers, and production-ready features."
+    },
+    {
+      "question": "What are the advantages of Spring Boot?",
+      "answer": "Spring Boot reduces boilerplate code, provides auto-configuration, supports embedded servers like Tomcat, and offers production-ready features such as monitoring and health checks."
+    },
+    {
+      "question": "What is Auto Configuration in Spring Boot?",
+      "answer": "Auto Configuration automatically configures Spring beans based on the dependencies available in the classpath. It minimizes manual configuration and speeds up development."
+    },
+    {
+      "question": "What is the difference between @Component, @Service, and @Repository?",
+      "answer": "@Component is a generic Spring bean, @Service is used for business logic classes, and @Repository is used for data access layers and provides exception translation."
+    },
+    {
+      "question": "What is the purpose of @SpringBootApplication?",
+      "answer": "@SpringBootApplication is a convenience annotation that combines @Configuration, @EnableAutoConfiguration, and @ComponentScan into a single annotation."
+    },
+    {
+      "question": "What is Dependency Injection in Spring Boot?",
+      "answer": "Dependency Injection is a design pattern where Spring automatically provides required objects to a class instead of the class creating them manually."
+    },
+    {
+      "question": "What is Spring Boot Starter?",
+      "answer": "Spring Boot Starters are dependency descriptors that simplify Maven or Gradle configuration. For example, spring-boot-starter-web includes all dependencies needed for web applications."
+    },
+    {
+      "question": "What is Spring Boot Actuator?",
+      "answer": "Spring Boot Actuator provides production-ready features such as health checks, metrics, application monitoring, and management endpoints."
+    },
+    {
+      "question": "How do you connect a Spring Boot application to a database?",
+      "answer": "A database can be connected by adding the appropriate JDBC dependency and configuring properties such as datasource URL, username, and password in application.properties."
+    },
+    {
+      "question": "What is the difference between @RestController and @Controller?",
+      "answer": "@Controller is used for MVC applications that return views, while @RestController is used for REST APIs and automatically converts responses into JSON or XML."
+    }
+  ]
 }
 
 
