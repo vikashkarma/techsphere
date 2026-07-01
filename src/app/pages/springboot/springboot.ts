@@ -26,7 +26,7 @@ this.meta.updateTag({
 });
 }
 
-javaArticles = ARTICLES.filter(
+springBootArticles = ARTICLES.filter(
   item => item.category === 'Spring Boot');
 
 }
