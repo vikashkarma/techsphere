@@ -1,1 +1,31 @@
-<p>ai works!</p>
+<section class="page">
+
+  <div class="category-hero">
+    <h1>AI Tutorials</h1>
+
+    <p>
+      Learn Artificial Intelligence, Generative AI,
+      ChatGPT, Machine Learning and AI Tools.
+    </p>
+
+    <span class="article-count">
+      {{ aiArticles.length }} Articles Available
+    </span>
+  </div>
+
+  <div
+    class="article-card"
+    *ngFor="let article of aiArticles"
+    [routerLink]="['/article', article.id]">
+
+    <h3>{{ article.title }}</h3>
+
+    <p>{{ article.description }}</p>
+
+    <span class="read-more">
+      Read Article →
+    </span>
+
+  </div>
+
+</section>

@@ -220,7 +220,105 @@ export const ARTICLES = [
       "answer": "@Controller is used for MVC applications that return views, while @RestController is used for REST APIs and automatically converts responses into JSON or XML."
     }
   ]
+},
+{
+"id": "angular-interview-questions",
+"title": "Top 10 Angular Interview Questions",
+"category": "Angular",
+"description": "Most asked Angular interview questions.",
+"questions": [
+{
+"question": "What is Angular?",
+"answer": "Angular is a TypeScript-based front-end framework developed by Google for building single-page web applications. It provides components, routing, dependency injection, forms, and many other features."
+},
+{
+"question": "What are Components in Angular?",
+"answer": "Components are the basic building blocks of Angular applications. Each component consists of a TypeScript class, HTML template, and CSS styles."
+},
+{
+"question": "What is Data Binding in Angular?",
+"answer": "Data binding is a mechanism that synchronizes data between the component and the view. Angular supports interpolation, property binding, event binding, and two-way data binding."
+},
+{
+"question": "What is Dependency Injection?",
+"answer": "Dependency Injection is a design pattern used to provide dependencies to a class instead of creating them manually. Angular has a built-in DI framework."
+},
+{
+"question": "What is Angular Routing?",
+"answer": "Angular Routing allows navigation between different components without reloading the page. Routes are configured using RouterModule."
+},
+{
+"question": "What are Angular Directives?",
+"answer": "Directives are instructions that modify the appearance or behavior of DOM elements. Examples include *ngIf, *ngFor, and ngClass."
+},
+{
+"question": "What is Lazy Loading?",
+"answer": "Lazy Loading loads feature modules only when required, reducing the initial bundle size and improving application performance."
+},
+{
+"question": "What are Angular Signals?",
+"answer": "Signals are Angular's reactive state management feature introduced to simplify state updates and improve performance."
+},
+{
+"question": "What is the difference between Template-driven and Reactive Forms?",
+"answer": "Template-driven forms are simple and use directives in templates, while Reactive Forms are model-driven and provide more control and validation options."
+},
+{
+"question": "What is Change Detection in Angular?",
+"answer": "Change Detection is the process Angular uses to update the DOM whenever application data changes."
 }
+]
+},
+{
+"id": "chatgpt-guide",
+"title": "Top 10 AI Interview Questions",
+"category": "AI",
+"description": "Most asked AI interview questions.",
+"questions": [
+{
+"question": "What is Artificial Intelligence?",
+"answer": "Artificial Intelligence is a branch of computer science that enables machines to perform tasks that normally require human intelligence."
+},
+{
+"question": "What is Machine Learning?",
+"answer": "Machine Learning is a subset of AI that allows systems to learn patterns from data and improve performance without explicit programming."
+},
+{
+"question": "What is Deep Learning?",
+"answer": "Deep Learning is a subset of Machine Learning that uses neural networks with multiple layers to solve complex problems."
+},
+{
+"question": "What is Generative AI?",
+"answer": "Generative AI creates new content such as text, images, audio, and videos based on patterns learned from training data."
+},
+{
+"question": "What is ChatGPT?",
+"answer": "ChatGPT is a conversational AI model developed by OpenAI that can answer questions, generate content, and assist with various tasks."
+},
+{
+"question": "What are Large Language Models (LLMs)?",
+"answer": "LLMs are AI models trained on massive datasets to understand and generate human-like language."
+},
+{
+"question": "What is Natural Language Processing?",
+"answer": "NLP is a field of AI focused on enabling computers to understand, interpret, and generate human language."
+},
+{
+"question": "What is Training Data?",
+"answer": "Training data is the dataset used to teach AI models patterns, relationships, and knowledge."
+},
+{
+"question": "What is Reinforcement Learning?",
+"answer": "Reinforcement Learning is a machine learning technique where an agent learns through rewards and penalties."
+},
+{
+"question": "What are AI Hallucinations?",
+"answer": "AI hallucinations occur when an AI model generates incorrect or fabricated information that appears convincing."
+}
+]
+}
+
+
 
 
 
