@@ -316,6 +316,54 @@ export const ARTICLES = [
 "answer": "AI hallucinations occur when an AI model generates incorrect or fabricated information that appears convincing."
 }
 ]
+},
+{
+  "id": "ai-interview-questions",
+  "title": "Top 20 AI Interview Questions",
+  "category": "AI",
+  "description": "Most asked Artificial Intelligence interview questions.",
+  "questions": [
+    {
+      "question": "What is Artificial Intelligence?",
+      "answer": "Artificial Intelligence (AI) is a branch of computer science that enables machines to simulate human intelligence such as learning, reasoning, problem-solving, and decision-making."
+    },
+    {
+      "question": "What is Machine Learning?",
+      "answer": "Machine Learning is a subset of AI that allows systems to learn from data and improve performance without being explicitly programmed."
+    },
+    {
+      "question": "What is Deep Learning?",
+      "answer": "Deep Learning is a subset of Machine Learning that uses neural networks with multiple layers to learn complex patterns from large datasets."
+    },
+    {
+      "question": "What is the difference between AI, ML, and Deep Learning?",
+      "answer": "AI is the broader concept of machine intelligence. Machine Learning is a subset of AI that learns from data. Deep Learning is a subset of Machine Learning that uses neural networks."
+    },
+    {
+      "question": "What is Natural Language Processing (NLP)?",
+      "answer": "NLP is a field of AI that enables computers to understand, interpret, and generate human language."
+    },
+    {
+      "question": "What is Computer Vision?",
+      "answer": "Computer Vision enables machines to interpret and understand images and videos."
+    },
+    {
+      "question": "What is Generative AI?",
+      "answer": "Generative AI creates new content such as text, images, audio, or code based on patterns learned from training data."
+    },
+    {
+      "question": "What is ChatGPT?",
+      "answer": "ChatGPT is a conversational AI model developed by OpenAI that can generate human-like responses to text prompts."
+    },
+    {
+      "question": "What is supervised learning?",
+      "answer": "Supervised learning is a Machine Learning approach where models are trained using labeled datasets."
+    },
+    {
+      "question": "What is unsupervised learning?",
+      "answer": "Unsupervised learning finds hidden patterns and relationships in unlabeled data."
+    }
+  ]
 }
 
 
