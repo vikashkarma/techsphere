@@ -1,12 +1,35 @@
 <section class="page">
 
-  <h1>Java Tutorials</h1>
-  <p>Java interview questions and tutorials.</p>
+  <section class="category-banner">
+    <h1>☕ Java Tutorials</h1>
 
-  <div class="article-card" *ngFor="let article of javaArticles" [routerLink]="['/article', article.id]">
-  <h3>{{ article.title }}</h3>
-  <p>{{ article.description }}</p>
+    <p>
+      Learn Core Java, Collections, OOPs, Streams,
+      Multithreading and Interview Preparation.
+    </p>
 
-</div>
+    <div class="article-count">
+      {{ javaArticles.length }} Articles
+    </div>
+  </section>
+
+  <section class="article-list">
+
+    <div
+      class="article-card"
+      *ngFor="let article of javaArticles"
+      [routerLink]="['/article', article.id]">
+
+      <h3>{{ article.title }}</h3>
+
+      <p>{{ article.description }}</p>
+
+      <span class="read-more">
+        Read Article →
+      </span>
+
+    </div>
+
+  </section>
 
 </section>
