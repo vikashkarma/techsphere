@@ -3,31 +3,40 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
   <url>
-    <loc>https://your-domain.com/</loc>
+    <loc>https://tech-sphere-app.netlify.app/</loc>
   </url>
 
   <url>
-    <loc>https://your-domain.com/java</loc>
+    <loc>https://tech-sphere-app.netlify.app/java</loc>
   </url>
 
   <url>
-    <loc>https://your-domain.com/angular</loc>
+    <loc>https://tech-sphere-app.netlify.app/angular</loc>
   </url>
 
   <url>
-    <loc>https://your-domain.com/springboot</loc>
+    <loc>https://tech-sphere-app.netlify.app/springboot</loc>
   </url>
 
   <url>
-    <loc>https://your-domain.com/ai</loc>
+    <loc>https://tech-sphere-app.netlify.app/ai</loc>
   </url>
 
   <url>
-    <loc>https://your-domain.com/technology</loc>
+    <loc>https://tech-sphere-app.netlify.app/technology</loc>
   </url>
 
+<url>
+  <loc>https://tech-sphere-app.netlify.app/article/java-interview-questions</loc>
+</url>
+
+<url>
+  <loc>https://tech-sphere-app.netlify.app/article/springboot-interview-questions</loc>
+</url>
+
   <url>
-    <loc>https://your-domain.com/interview</loc>
+    <loc>https://tech-sphere-app.netlify.app/interview</loc>
   </url>
+
 
 </urlset>
